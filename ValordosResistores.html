@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title> Valor dos Resistores </title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <header><h2 class="val"> Valores de resistores </h2></header>
+    <form>
+        <div class="bloco">
+            <p> <label for="faixa1" class="val"> Faixa 1: </label>
+            <select name="cor1" id="faixa1" onchange="mudarCor()" value="Selecione a cor">
+                <option value="0"> Preto </option>
+                <option value="1"> Marrom </option>
+                <option value="2"> Vermelho </option>
+                <option value="3"> Laranja </option>
+                <option value="4"> Amarelo </option>
+                <option value="5"> Verde </option>
+                <option value="6"> Azul </option>
+                <option value="7"> Violeta </option>
+                <option value="8"> Cinza </option>
+                <option value="9"> Branco </option>
+            </select>
+            <div id="Color1">  </div>
+            </p>
+        </div>
+        <div class="bloco">
+            <p> <label for="faixa2" class="val" value="Selecione a cor"> Faixa 2: </label> 
+            <select name="cor1" id="faixa2" onchange="mudarCor()">
+                <option value="0"> Preto </option>
+                <option value="1"> Marrom </option>
+                <option value="2"> Vermelho </option>
+                <option value="3"> Laranja </option>
+                <option value="4"> Amarelo </option>
+                <option value="5"> Verde </option>
+                <option value="6"> Azul </option>
+                <option value="7"> Violeta </option>
+                <option value="8"> Cinza </option>
+                <option value="9"> Branco </option>
+            </select>
+            <div id="Color2">  </div>
+            </p>
+        </div>
+        <div class="bloco">
+            <p> <label for="faixa3" class="val" value="Selecione a cor"> Faixa 3: </label>
+            <select name="cor1" id="faixa3" onchange="mudarCor()">
+                <option value="1"> Preto </option>
+                <option value="10"> Marrom </option>
+                <option value="100"> Vermelho </option>
+                <option value="1000"> Laranja </option>
+                <option value="10000"> Amarelo </option>
+                <option value="100000"> Verde </option>
+                <option value="1000000"> Azul </option>
+                <option value="10000000"> Violeta </option>
+            </select> 
+            <div id="Color3">  </div>
+            </p>
+        </div>
+        <div class="bloco">
+            <p> <label for="faixa4" class="val" value="Selecione a cor"> Tolerância: </label>
+            <select name="cor1" id="faixa4" onchange="mudarCor()">
+                <option value="5"> Dourado </option>
+                <option value="10"> Prata </option>
+            </select>
+            <div id="Color4">  </div>
+            </p>
+        </div>
+    </form>
+        <p>    
+        <section>
+            <div class="val"> Valor Total: </div>
+            <div id="resultado">  </div>
+            <button type="button" onclick="valorTotal()"> Calcular </button>
+        </section>
+        </p>
+    <script src="script.js"></script>
+</body>
+</html>

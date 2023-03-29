@@ -1,0 +1,52 @@
+#resultado{
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border-radius: 8px;
+    border: solid 2px #7d9ba3d1;
+}
+body{
+    background-image: url(Robótica.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.val{
+    color: #ffffff;
+}
+#Color1{
+    width: 250px;
+    height: 150px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: solid 2px #18e4e4;
+}
+#Color2{
+    width: 250px;
+    height: 150px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: solid 2px #18e4e4;
+}
+#Color3{
+    width: 250px;
+    height: 150px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: solid 2px #18e4e4;
+}
+#Color4{
+    width: 250px;
+    height: 150px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: solid 2px #18e4e4;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.bloco{
+    display: flex;
+    flex-direction: column;
+} 
